@@ -2,8 +2,8 @@
 Collection of scripts to scrape and use odds data from oddsportal.com.
 
 ### Dependencies
-* jq
-* curl
+* jq - https://jqlang.github.io/jq/
+* curl - https://curl.se/
 
 ### Examples
 
