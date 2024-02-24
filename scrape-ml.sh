@@ -9,7 +9,7 @@
 # With `Timestamp` being the unix epoch time in seconds.
 # If `Status` = 0, then Home Score and Away Score will both be set to 0.
 
-version="v0.1.0\n"
+version="v0.1.0"
 usage="Usage: scrape-ml [OPTION]... LEAGUE
 Fetch all moneyline odds from oddsportal.com for every game in the given league.
 
@@ -29,7 +29,7 @@ while getopts "hvy:" arg; do
       exit
       ;;
     v)
-      echo -e $version
+      echo "$version"
       exit
       ;;
     *)
