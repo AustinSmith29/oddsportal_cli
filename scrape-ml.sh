@@ -15,7 +15,7 @@ Fetch all moneyline odds from oddsportal.com for every game in the given league.
 
 Uses decimal odds.
 
-Supported LEAGUE options: mlb, nba
+Supported LEAGUE options: mlb, nba, ncaab
   -h    display this help and exit
   -v    output version information and exit
 "
@@ -41,6 +41,7 @@ done
 declare -A league_codes
 league_codes["mlb"]="Sj67Y5TK"
 league_codes["nba"]="IoGXixRr"
+league_codes["ncaab"]="nR7llfQ7"
 
 if [ -z $LEAGUE ]; then
     echo "Error: No league was given. Exiting."
